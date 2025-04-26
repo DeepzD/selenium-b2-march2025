@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-26T21:26:50 NZST" name=" TestNG Example suite" finished-at="2025-04-26T21:27:39 NZST" duration-ms="48605">
+    <groups>
+    </groups>
+    <test started-at="2025-04-26T21:26:50 NZST" name="Login test" finished-at="2025-04-26T21:27:39 NZST" duration-ms="48605">
+      <class name="com.dd.selenium.LoginNegativeTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:26:50 NZST" name="setup" finished-at="2025-04-26T21:26:55 NZST" duration-ms="4602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LockedoutUserLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:26:55 NZST" name="LockedoutUserLogin" finished-at="2025-04-26T21:26:55 NZST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LockedoutUserLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:26:55 NZST" name="setup" finished-at="2025-04-26T21:26:57 NZST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blankPasswordLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:26:57 NZST" name="blankPasswordLogin" finished-at="2025-04-26T21:26:58 NZST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPasswordLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:26:58 NZST" name="setup" finished-at="2025-04-26T21:27:00 NZST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blankUsernameAndPasswordLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:00 NZST" name="blankUsernameAndPasswordLogin" finished-at="2025-04-26T21:27:00 NZST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameAndPasswordLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:00 NZST" name="setup" finished-at="2025-04-26T21:27:03 NZST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blankUsernameLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:03 NZST" name="blankUsernameLogin" finished-at="2025-04-26T21:27:03 NZST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:03 NZST" name="setup" finished-at="2025-04-26T21:27:06 NZST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:06 NZST" name="invalidPasswordLogin" finished-at="2025-04-26T21:27:06 NZST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:06 NZST" name="setup" finished-at="2025-04-26T21:27:10 NZST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsernameAndPasswordLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:10 NZST" name="invalidUsernameAndPasswordLogin" finished-at="2025-04-26T21:27:10 NZST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameAndPasswordLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:10 NZST" name="setup" finished-at="2025-04-26T21:27:14 NZST" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsernameLogin()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:14 NZST" name="invalidUsernameLogin" finished-at="2025-04-26T21:27:14 NZST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:14 NZST" name="setup" finished-at="2025-04-26T21:27:18 NZST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logWithLongUsername()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:18 NZST" name="logWithLongUsername" finished-at="2025-04-26T21:27:20 NZST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logWithLongUsername -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:20 NZST" name="setup" finished-at="2025-04-26T21:27:23 NZST" duration-ms="3861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginScenariosWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:23 NZST" name="testInvalidLoginScenariosWithDDT" data-provider="user-credentials" finished-at="2025-04-26T21:27:24 NZST" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginScenariosWithDDT -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:24 NZST" name="setup" finished-at="2025-04-26T21:27:29 NZST" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginScenariosWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:29 NZST" name="testInvalidLoginScenariosWithDDT" data-provider="user-credentials" finished-at="2025-04-26T21:27:29 NZST" duration-ms="799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginScenariosWithDDT -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:29 NZST" name="setup" finished-at="2025-04-26T21:27:33 NZST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginScenariosWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:33 NZST" name="testInvalidLoginScenariosWithDDT" data-provider="user-credentials" finished-at="2025-04-26T21:27:34 NZST" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard-user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginScenariosWithDDT -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:34 NZST" name="setup" finished-at="2025-04-26T21:27:37 NZST" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testwithSpecialCharacters()[pri:0, instance:com.dd.selenium.LoginNegativeTests@6aba2b86]" started-at="2025-04-26T21:27:37 NZST" name="testwithSpecialCharacters" finished-at="2025-04-26T21:27:39 NZST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithSpecialCharacters -->
+      </class> <!-- com.dd.selenium.LoginNegativeTests -->
+    </test> <!-- Login test -->
+  </suite> <!--  TestNG Example suite -->
+</testng-results>

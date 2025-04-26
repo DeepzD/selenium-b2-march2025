@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-_TestNG_Example_suite" class="navigator-link">
+              <span class="suite-name border-passed"> TestNG Example suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-_TestNG_Example_suite" class="navigator-link ">
+                    <span>C:\Selenium_training_Projects\16March\Selenium_Training_Two\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-_TestNG_Example_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-_TestNG_Example_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-_TestNG_Example_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-_TestNG_Example_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-_TestNG_Example_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-_TestNG_Example_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_TestNG_Example_suite" class="hide-methods passed suite-_TestNG_Example_suite"> (hide)</a> <!-- hide-methods passed suite-_TestNG_Example_suite -->
+                      <a href="#" panel-name="suite-_TestNG_Example_suite" class="show-methods passed suite-_TestNG_Example_suite"> (show)</a> <!-- show-methods passed suite-_TestNG_Example_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-_TestNG_Example_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="LockedoutUserLogin">LockedoutUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="blankPasswordLogin">blankPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="blankUsernameAndPasswordLogin">blankUsernameAndPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="blankUsernameLogin">blankUsernameLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="invalidPasswordLogin">invalidPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="invalidUsernameAndPasswordLogin">invalidUsernameAndPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="invalidUsernameLogin">invalidUsernameLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="logWithLongUsername">logWithLongUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="testInvalidLoginScenariosWithDDT(, password, Epic sadface: Username is required)">testInvalidLoginScenariosWithDDT(, password, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="testInvalidLoginScenariosWithDDT(standard-user, , Epic sadface: Password is required)">testInvalidLoginScenariosWithDDT(standard-user, , Epic sadface: Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="testInvalidLoginScenariosWithDDT(, , Epic sadface: Username is required)">testInvalidLoginScenariosWithDDT(, , Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_TestNG_Example_suite" title="com.dd.selenium.LoginNegativeTests" class="method navigator-link" hash-for-method="testwithSpecialCharacters">testwithSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_TestNG_Example_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_TestNG_Example_suite" class="panel _TestNG_Example_suite">
+          <div class="suite-_TestNG_Example_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dd.selenium.LoginNegativeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LockedoutUserLogin">
+                  </a> <!-- LockedoutUserLogin -->
+                  <span class="method-name">LockedoutUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPasswordLogin">
+                  </a> <!-- blankPasswordLogin -->
+                  <span class="method-name">blankPasswordLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankUsernameAndPasswordLogin">
+                  </a> <!-- blankUsernameAndPasswordLogin -->
+                  <span class="method-name">blankUsernameAndPasswordLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankUsernameLogin">
+                  </a> <!-- blankUsernameLogin -->
+                  <span class="method-name">blankUsernameLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordLogin">
+                  </a> <!-- invalidPasswordLogin -->
+                  <span class="method-name">invalidPasswordLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameAndPasswordLogin">
+                  </a> <!-- invalidUsernameAndPasswordLogin -->
+                  <span class="method-name">invalidUsernameAndPasswordLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameLogin">
+                  </a> <!-- invalidUsernameLogin -->
+                  <span class="method-name">invalidUsernameLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logWithLongUsername">
+                  </a> <!-- logWithLongUsername -->
+                  <span class="method-name">logWithLongUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginScenariosWithDDT(, password, Epic sadface: Username is required)">
+                  </a> <!-- testInvalidLoginScenariosWithDDT(, password, Epic sadface: Username is required) -->
+                  <span class="method-name">testInvalidLoginScenariosWithDDT</span>
+                  <span class="parameters">(,password,Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginScenariosWithDDT(standard-user, , Epic sadface: Password is required)">
+                  </a> <!-- testInvalidLoginScenariosWithDDT(standard-user, , Epic sadface: Password is required) -->
+                  <span class="method-name">testInvalidLoginScenariosWithDDT</span>
+                  <span class="parameters">(standard-user,,Epic sadface: Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginScenariosWithDDT(, , Epic sadface: Username is required)">
+                  </a> <!-- testInvalidLoginScenariosWithDDT(, , Epic sadface: Username is required) -->
+                  <span class="method-name">testInvalidLoginScenariosWithDDT</span>
+                  <span class="parameters">(,,Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwithSpecialCharacters">
+                  </a> <!-- testwithSpecialCharacters -->
+                  <span class="method-name">testwithSpecialCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_TestNG_Example_suite-class-passed -->
+        </div> <!-- panel _TestNG_Example_suite -->
+        <div panel-name="test-xml-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium_training_Projects\16March\Selenium_Training_Two\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot; TestNG Example suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;headless&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dd.selenium.LoginNegativeTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login test --&gt;
+&lt;/suite&gt; &lt;!--  TestNG Example suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  TestNG Example suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  TestNG Example suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  TestNG Example suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__TestNG_Example_suite');
+function tableData__TestNG_Example_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'logWithLongUsername')
+data.setCell(0, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(0, 3, 1624);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testwithSpecialCharacters')
+data.setCell(1, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(1, 3, 1130);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInvalidLoginScenariosWithDDT')
+data.setCell(2, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(2, 3, 891);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testInvalidLoginScenariosWithDDT')
+data.setCell(3, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(3, 3, 848);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testInvalidLoginScenariosWithDDT')
+data.setCell(4, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(4, 3, 799);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'blankPasswordLogin')
+data.setCell(5, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(5, 3, 589);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'blankUsernameLogin')
+data.setCell(6, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(6, 3, 535);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalidUsernameAndPasswordLogin')
+data.setCell(7, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(7, 3, 464);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LockedoutUserLogin')
+data.setCell(8, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(8, 3, 413);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalidUsernameLogin')
+data.setCell(9, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(9, 3, 413);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidPasswordLogin')
+data.setCell(10, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(10, 3, 402);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'blankUsernameAndPasswordLogin')
+data.setCell(11, 2, 'com.dd.selenium.LoginNegativeTests')
+data.setCell(11, 3, 217);
+window.suiteTableData['_TestNG_Example_suite']= { tableData: data, tableDiv: 'times-div-_TestNG_Example_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-_TestNG_Example_suite">
+              </div> <!-- times-div-_TestNG_Example_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  TestNG Example suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_TestNG_Example_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dd.selenium.LoginNegativeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LockedoutUserLogin</span>
+                <span class="method-start">4603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPasswordLogin</span>
+                <span class="method-start">7182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUsernameAndPasswordLogin</span>
+                <span class="method-start">10140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUsernameLogin</span>
+                <span class="method-start">12710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordLogin</span>
+                <span class="method-start">16020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameAndPasswordLogin</span>
+                <span class="method-start">19926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameLogin</span>
+                <span class="method-start">23700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logWithLongUsername</span>
+                <span class="method-start">27964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginScenariosWithDDT(, , Epic sadface: Username is required)</span>
+                <span class="method-start">33457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginScenariosWithDDT(, password, Epic sadface: Username is required)</span>
+                <span class="method-start">38616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginScenariosWithDDT(standard-user, , Epic sadface: Password is required)</span>
+                <span class="method-start">42938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">43831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testwithSpecialCharacters</span>
+                <span class="method-start">47433 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
