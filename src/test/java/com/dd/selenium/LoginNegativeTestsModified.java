@@ -27,6 +27,8 @@ public class LoginNegativeTestsModified {
         WebElement txtUserName = driver.findElement(By.id("user-name"));
         WebElement txtPassword = driver.findElement(By.id("password"));
 
+       // WebElement txtPass1word = driver.findElement(By.DOM
+
         txtUserName.clear();
         txtPassword.sendKeys(username);
 

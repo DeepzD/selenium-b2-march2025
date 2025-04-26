@@ -73,7 +73,7 @@ public class CrossBrowserTest {
     @Test
     public void testLoginWithFirefoxHeadless(){
         FirefoxOptions options = new FirefoxOptions();
-        options.addArguments("--headless");
+        options.addArguments("--headless"); // run without opening graphical user interface
 
         driver = new FirefoxDriver(options);
         driver.get("https://www.saucedemo.com/");

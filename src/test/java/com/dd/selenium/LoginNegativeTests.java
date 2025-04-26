@@ -2,6 +2,7 @@ package com.dd.selenium;
 
 import com.dd.SauceData.SauceTestData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,7 +42,7 @@ public class LoginNegativeTests {
     {
         txtUserName.sendKeys("Deepika");
         txtPassword.sendKeys("secret_sauce");
-        btnLogin.click();
+        btnLogin.sendKeys(Keys.ENTER);
 
         String errorMessage = errorMessage();
         Assert.assertEquals(errorMessage,"Epic sadface: Username and password do not match any user in this service");

@@ -1,20 +1,30 @@
 package com.dd.selenium;
 
+import com.dd.selenium.util.BrowserFactory;
+import com.dd.selenium.util.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class HelloSeleniumTest {
 
+    @Parameters({"browser"})
     @Test
     public void testHelloSelenium() {
 
         //Launching a browser instance
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.saucedemo.com/");
+        //logger.infor("Initializing a web browser");
+
+        WebDriver driver;
+
+        BrowserFactory.init(ConfigReader.getBrowser());
+        driver = BrowserFactory.getDriver();
+
+        driver.get(ConfigReader.getBaseURL());
         driver.manage().window().maximize();
 
         // type username
